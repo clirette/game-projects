@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Puzzle Game</title>
+        <style>
+            body
+            {
+                background-color: black;
+                color: #c0c0c0;
+                text-align: center;
+                background-image: url("Assets/Logo.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+            h1
+            {
+                text-transform: uppercase;
+                font-family: "Comic Sans MS" , "Comic Sans", cursive;
+            }
+            p
+            {
+                font-family: "Comic Sans MS", "Comic Sans", cursive;
+            }
+            
+            li
+            {
+                
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <h1>Robotic Raven's puzzle game</h1>
+        <p>there is a number between 0-999</p>
+        <p id= "attempts">you have 10 guesses.</p>
+        
+        <span> Enter a guess: </span>
+        
+        <input type="text" id="guess-number" ></input>
+        <input type="button"value="submit" id="guess-button"></input>
+        
+        <ul id="clue"></ul>
+        
+        <script src="Scripts/Game.js"></script>
+    </body>
+</html>
+

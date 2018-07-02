@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Guess the number to win!</title>
+        <style>
+            body {
+                background-color:Green;
+                color:white;
+                text-align: center;
+                background-image: url("Assets/HyperHamsterStudios_mainlogo.gif");
+                background-repeat:no-repeat;
+                background-size: 200px 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>The Guessing Game!</h1>
+        <p>there is a number between 0-999</p>
+        <p id="attempts">You have 10 guesses</p>
+        
+        <span>Enter a guess:</<span>
+            <input type="text" id="Guess-number"></input>
+            <input type="Button"value="sumbit" id="Guess-Button"></input>
+            
+            <ul id="clue"></ul>
+            
+        <script src="scripts/Game.js"></script>
+    </body>
+</html>

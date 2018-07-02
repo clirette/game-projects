@@ -1,0 +1,38 @@
+.jumbotron {
+	margin-bottom: 0;
+	background-color:#38ff01;
+	color: white;
+}
+
+.section-title, .games  {
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+	width: 70%;
+	border-top: solid 3px;
+}
+
+#games-section {
+	background-color: #0138ff;
+}
+
+#about-section {
+	background-color: #ff0138;
+	color: #e8e6e4;
+	font-weight: 300;
+}
+.section {
+	margin-top: 10px;
+	padding-bottom: 30px;
+}
+
+img {
+	width: 20em!important;
+	height: 20em!important;
+}
+

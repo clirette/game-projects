@@ -1,0 +1,18 @@
+class Enemy extends Phaser.Physics.Arcade.Sprite
+{
+    constructor(scene)
+    {
+        super(scene, -24, -24, 'enemy');
+        //this.x = Phaser.Math.Between(0,640);
+        this.y = Phaser.Math.Between(0,480);
+        this.depth = 1;
+        this.speed = Phaser.Math.Between(2,6);
+        
+        scene.add.existing(this);
+        scene.physics.add.existing(this);
+    }
+    
+    move() {
+        this.x += this.speed;
+    }
+}
